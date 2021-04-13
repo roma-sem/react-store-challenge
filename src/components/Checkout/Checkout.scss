@@ -1,0 +1,29 @@
+// @import '../../../assets/sass/sass-assets.scss';
+
+.Checkout {
+    position: relative;
+
+    .cart-items-container {
+        right: 0;
+        width: 400px;
+        height: 100%;
+        background-color: white;
+
+        .inner {
+            position: relative;
+            top: 50px;
+            width: 80%;
+            margin: auto;
+
+            h2 {
+                margin-top: 40px;
+                margin-bottom: 30px;
+            }
+
+            h3 {
+                margin-top: 30px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}

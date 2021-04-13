@@ -1,0 +1,30 @@
+@import '../../assets/sass/sass-assets.scss';
+
+.Header {
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+    top:0;
+    left: 0;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    min-height: 55px;
+
+    .NavTitle {
+        padding-left: 25px;
+        // display: inline-block;
+    }
+
+    .DesktopNav {
+        position: absolute;
+        top: 16px;
+        left: 212px;
+    }
+
+    .ViewCart {
+        position: absolute;
+        right: 30px;
+        top: 16px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,44 @@
+@import '../../assets/sass/sass-assets.scss';
+
+.Product {
+    position: relative;
+    left: 250px;
+    width: 60%;
+    max-width: 900px;
+
+    .product-details {
+        position: relative;
+        margin-top: 30px;
+        display: flex;
+
+        @include break(sm) {
+            display: block;
+        }
+
+        @include break(xs) {
+            display: block;
+        }
+
+        img {
+            object-fit: contain;
+            max-width: 250px;
+        }
+
+        p {
+            padding-left: 50px;
+        }
+    }
+
+    .price {
+        margin-top: 30px;
+        font-size: 24px;
+    }
+
+    .Quantity {
+        margin-top: 10px;
+    }
+
+    .BlueButton {
+        margin-top: 30px;
+    }
+}
